@@ -1,7 +1,7 @@
 /* eslint-disable */
 import Vue from 'vue'
 import Router from 'vue-router'
-import BlogList from '@/components/BlogList'
+import BlogList from '@/components/Bloglist'
 import ShowBlog from '@/components/ShowBlog'
 import CreateBlog from '@/components/CreateBlog'
 import EditBlog from '@/components/EditBlog'
