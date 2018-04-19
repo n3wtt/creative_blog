@@ -41,7 +41,7 @@ export default {
   methods: {
     onSubmit (evt) {
       evt.preventDefault()
-      axios.put(`http://localhost:3000/blog/` + this.$route.params.id, this.blog)
+      axios.put(`http://armyofhackers.com:3000/blog/` + this.$route.params.id, this.blog)
         .then(response => {
           this.$router.push({
             name: 'ShowBlog',

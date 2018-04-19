@@ -54,7 +54,7 @@ export default {
       })
     },
     deleteblog(blogid) {
-      axios.delete('http://localhost:3000/blog/' + blogid)
+      axios.delete('http://armyofhackers.com:3000/blog/' + blogid)
         .then((result) => {
           this.$router.push({
             name: 'BlogList'
