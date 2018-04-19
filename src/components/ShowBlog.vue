@@ -36,7 +36,7 @@ export default {
     }
   },
   created() {
-    axios.get(`http://localhost:3000/blog/` + this.$route.params.id)
+    axios.get(`http://armyofhackers.com:3000/blog/` + this.$route.params.id)
       .then(response => {
         this.blog = response.data
       })

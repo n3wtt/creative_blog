@@ -35,10 +35,8 @@ export default {
   },
   methods: {
     onSubmit (evt) {
-      console.log("HERE")
       evt.preventDefault();
-      console.log("HERE")
-      axios.post('http://localhost:3000/blog', { title: this.blog.title, body: this.blog.body })
+      axios.post('http://armyofhackers.com:3000/blog', { title: this.blog.title, body: this.blog.body })
         .then(response => {
           this.$router.push({
             name: 'ShowBlog',

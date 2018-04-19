@@ -43,7 +43,7 @@ export default {
     }
   },
   created() {
-    axios.get(`http://localhost:3000/blog`)
+    axios.get(`http://armyofhackers.com:3000/blog`)
       .then(response => {
         this.blogs = response.data
       })
