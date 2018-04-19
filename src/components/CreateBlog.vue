@@ -40,7 +40,6 @@ export default {
       console.log("HERE")
       axios.post('http://localhost:3000/blog', { title: this.blog.title, body: this.blog.body })
         .then(response => {
-          console.log("HITSent");
           this.$router.push({
             name: 'ShowBlog',
             params: {
