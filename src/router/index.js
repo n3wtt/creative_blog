@@ -5,7 +5,6 @@ import BlogList from '@/components/BlogList'
 import ShowBlog from '@/components/ShowBlog'
 import CreateBlog from '@/components/CreateBlog'
 import EditBlog from '@/components/EditBlog'
-import Nav from '@/components/Nav'
 
 Vue.use(Router)
 
@@ -29,11 +28,6 @@ export default new Router({
       path: '/edit-blog/:id',
       name: 'EditBlog',
       component: EditBlog
-    },
-    {
-      path:'/help',
-      name:'Nav',
-      component:Nav
     }
   ]
 })

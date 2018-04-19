@@ -1,7 +1,12 @@
 <template>
   <div id="app">
+
     <router-view/>
+    <footer>
+      <a href="https://github.com/n3wtt/creative_blog">git</a>
+    </footer>
   </div>
+
 </template>
 
 <script>
